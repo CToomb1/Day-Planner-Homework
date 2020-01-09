@@ -1,7 +1,5 @@
-// variable for the current day
 var currentDay = document.querySelector("#currentDay");
 
-// Add current day with moment.js to <p class="currentDay">
 $(currentDay).text(moment().format('LLLL'));
 
 function hourUpdater() {
